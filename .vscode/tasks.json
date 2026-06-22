@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Local Server (Port 8000)",
+      "type": "shell",
+      "command": "python",
+      "args": ["-m", "http.server", "8000"],
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^.*$",
+          "file": 1,
+          "location": 2,
+          "message": 3
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^Serving.*",
+          "endsPattern": "^.*Keyboard interrupt.*"
+        }
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "Git: Add & Commit",
+      "type": "shell",
+      "command": "git",
+      "args": ["add", "."],
+      "problemMatcher": []
+    },
+    {
+      "label": "Git: Push to Pages",
+      "type": "shell",
+      "command": "git",
+      "args": ["push"],
+      "problemMatcher": [],
+      "dependsOn": ["Git: Add & Commit"]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260">
+  <defs>
+    <linearGradient id="salmonGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6d6d"/>
+      <stop offset="100%" stop-color="#ffb3a5"/>
+    </linearGradient>
+    <linearGradient id="riceGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdfaf7"/>
+      <stop offset="100%" stop-color="#e8e3dc"/>
+    </linearGradient>
+    <linearGradient id="seaweedGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1b2a20"/>
+      <stop offset="100%" stop-color="#2d3b2c"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="260" height="260" rx="32" fill="transparent" />
+  <g filter="url(#shadow)">
+    <g transform="translate(130 130)">
+      <g transform="rotate(30)">
+        <rect x="-10" y="-138" width="20" height="220" rx="10" fill="#b4865b"/>
+        <rect x="-9" y="-128" width="18" height="200" rx="9" fill="#8f653f" opacity="0.92"/>
+      </g>
+      <g transform="rotate(-20)">
+        <rect x="-10" y="-138" width="20" height="220" rx="10" fill="#b4865b"/>
+        <rect x="-9" y="-128" width="18" height="200" rx="9" fill="#8f653f" opacity="0.92"/>
+      </g>
+      <g transform="translate(0 12)">
+        <path d="M -48 20 C -65 20 -72 -18 -41 -80 C -10 -18 -25 16 -7 20 C 5 22 18 20 28 14 C 60 -10 69 -58 41 -80 C 18 -98 -12 -98 -48 -80 Z"
+              fill="url(#salmonGradient)" stroke="#a13f4a" stroke-width="4"/>
+        <path d="M -36 30 C -34 50 -18 72 4 76 C 24 80 42 62 44 38 C 46 10 34 -8 16 -10 C -2 -12 -20 -2 -32 18 Z"
+              fill="#ffcab2" opacity="0.48"/>
+        <path d="M -45 18 C -36 16 -22 7 -9 12 C 0 16 10 22 18 22 C 42 22 56 12 58 -2 C 60 -20 42 -26 22 -28 C 8 -29 -4 -26 -18 -20 C -33 -14 -44 -4 -45 18 Z"
+              fill="none" stroke="#e46b6f" stroke-width="3" opacity="0.85"/>
+        <path d="M -60 36 C -42 70 -20 70 0 70 C 20 70 40 68 54 40 C 67 14 62 -10 56 -24 C 35 -44 4 -44 -20 -42 C -49 -40 -62 -2 -60 36 Z"
+              fill="url(#riceGradient)" stroke="#d9cec5" stroke-width="4"/>
+        <path d="M -60 34 C -52 70 -28 76 0 74 C 28 72 50 60 58 36 C 66 10 62 -8 56 -22 C 35 -40 6 -42 -20 -40 C -50 -38 -61 8 -60 34 Z"
+              fill="none" stroke="#d1c6b8" stroke-width="3" opacity="0.7"/>
+        <path d="M -49 30 C -40 52 -20 44 0 46 C 20 48 38 40 46 22 C 52 6 47 -10 38 -18 C 22 -28 0 -28 -20 -20 C -38 -12 -50 4 -49 30 Z"
+              fill="none" stroke="#e3d6c6" stroke-width="2" opacity="0.7"/>
+        <path d="M -66 36 C -60 74 -28 92 4 88 C 38 84 60 60 62 30 C 63 0 42 -18 18 -26 C -4 -34 -28 -34 -50 -24 C -67 -16 -70 8 -66 36 Z"
+              fill="url(#seaweedGradient)"/>
+        <path d="M -72 20 Q -68 30 -56 42 Q -38 62 -10 66 Q 14 68 36 54 Q 50 44 56 22 Q 60 6 56 -10 Q 44 -32 22 -40 Q -4 -52 -28 -48 Q -54 -44 -70 -24 Q -74 -8 -72 20 Z"
+              fill="none" stroke="#0f1612" stroke-width="4" opacity="0.9"/>
+        <path d="M -81 48 C -71 90 -45 110 -10 108 C 30 106 60 90 64 52 C 67 20 45 4 18 -4 C -4 -10 -28 -4 -52 12 C -72 26 -82 40 -81 48 Z"
+              fill="none" stroke="#0f1612" stroke-width="5" opacity="0.35"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(20 170)">
+    <path d="M 20 20 C 70 6 130 0 180 12 C 195 16 220 28 235 26 C 248 24 252 16 246 8 C 236 -6 220 -4 190 -10 C 155 -18 98 -20 48 -6 C 20 4 4 15 2 20 Z"
+          fill="#f8f0e6" stroke="#2d2a26" stroke-width="5"/>
+    <path d="M 24 24 C 70 12 128 7 178 18" fill="none" stroke="#d5b194" stroke-width="4" opacity="0.45"/>
+    <path d="M 40 12 C 45 3 55 0 66 2 C 96 7 110 14 134 12" fill="none" stroke="#d5b194" stroke-width="3" opacity="0.4"/>
+    <text x="130" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700" fill="#2d2a26" letter-spacing="4">SUSH</text>
+  </g>
+</svg>
