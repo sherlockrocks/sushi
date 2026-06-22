@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Sush</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">Sush</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero reveal">
+        <span class="eyebrow">Let’s connect</span>
+        <h1>Leave a note, a hello, or a surprise message.</h1>
+        <p>This contact page keeps it simple but uses motion and form states to stay engaging.</p>
+      </section>
+
+      <section class="contact-grid reveal">
+        <aside class="contact-panel">
+          <h2>Reach out</h2>
+          <p>Use the form to send a message anytime. Every field is styled to feel calm and clear.</p>
+          <div class="contact-meta">
+            <div><strong>Email</strong><span>hello@example.com</span></div>
+            <div><strong>Location</strong><span>Online & remote</span></div>
+          </div>
+        </aside>
+        <form class="contact-form" id="contactForm">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Her name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Write a sweet note..." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send love</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made for a memorable GitHub Pages launch.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+    </footer>
+  </div>
+  <div class="confetti-container" id="confetti"></div>
+  <script src="script.js"></script>
+</body>
+</html>
